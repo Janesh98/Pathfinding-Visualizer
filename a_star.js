@@ -43,12 +43,10 @@ function drawPath(path) {
 // An educated guess of how far it is between two points
 // euclidian distance
 function heuristic(a, b) {
-  var d = dist(a.i, a.j, b.i, b.j);
-  // var d = abs(a.i - b.i) + abs(a.j - b.j);
-  return d;
+  return dist(a.i, a.j, b.i, b.j);
 }
 
-// How many columns and rows?
+// grid size = cols * rows
 var cols = 50;
 var rows = 50;
 
@@ -127,7 +125,7 @@ function draw() {
   // Am I still searching?
   if (openSet.length > 0) {
 
-    // Best next option
+    // next best option
     var winner = 0;
     for (var i = 0; i < openSet.length; i++) {
       if (openSet[i].f < openSet[winner].f) {
