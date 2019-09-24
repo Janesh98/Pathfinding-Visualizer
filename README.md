@@ -1,3 +1,3 @@
 # Pathfinding-Visualizer
 
-https://janesh98.github.io/Pathfinding-Visualizer/
+Visualization available at https://janesh98.github.io/Pathfinding-Visualizer/
