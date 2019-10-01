@@ -1,7 +1,6 @@
 # Pathfinding-Visualizer
+Visualizes A-Star graph search algorithm through a generated maze, finds the shortest route from top left to bottom right.
+
 
 ## Visualization available at:
  https://janesh98.github.io/Pathfinding-Visualizer/
-
-### Note: 
-As the maze is generated randomly, occasionally there is no complete solution, please refresh the page to view the visualisation.
