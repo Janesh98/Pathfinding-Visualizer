@@ -1,3 +1,7 @@
+function refresh() {
+    location.reload();
+
+}
 
 // delete element from the array
 function removeFromArray(arr, elt) {
@@ -185,6 +189,7 @@ function draw() {
     console.log('no solution');
 
     current = closestSpot;
+    alert("no complete solution for current maze, please refresh")
     noLoop();
   }
 
